@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        moderustic: ['"Moderustic"', 'sans-serif'],
+      },
+      colors:{
+        greens:'#028C70'
+      }
+    },
   },
   plugins: [],
 }
